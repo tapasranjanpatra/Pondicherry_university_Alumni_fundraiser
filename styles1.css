@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpeg'); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Josefin Sans', sans-serif; /* Add your preferred font family */
+    color: #0a0053; /* Set your desired text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  }
+  
+  /* Add your custom styles here for the hero section */
+  .hero-section {
+    display: flex;
+    flex-direction: row; /* Align hero-left and hero-right side by side */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 20px;
+    /*background-color: rgba(255, 255, 255); /* Add a semi-transparent background color to make text more readable */
+    flex: 1; /* Allow the hero section to grow and take available vertical space */
+  }
+  
+  .imgcontainer {
+    text-align: center;
+  }
+  
+  .imgcontainer img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+    display: flex;
+  }
+  
+  .hero-left {
+    flex: 1;
+    text-align: center;
+    color: #fff; /* Center text content */
+  }
+  
+  .hero-right {
+    flex: 1;
+    text-align: center; /* Center text content */
+  }
+  
+  
+  
+  
+ 
+  
+  /* ***************************this css code for footer section *************************************** */
+ 
+
+  
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+  }
+  footer .container{
+      background-color: black;
+  }
+  
+  .row{
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 100px;
+  }
+  .footer-col ul{
+      list-style: none;
+  }
+  
+  .footer-col h4{
+      color: white;
+      margin-bottom: 25px;
+      font-size: 22px;
+      position: relative;
+      font-family: 'Inter', sans-serif;
+  }
+  
+  .footer-col h4::before{
+      content: '';
+      width: 70px;
+      height: 2px;
+      position: absolute;
+      background-color: #e91e64;
+      bottom: -10px;
+  }
+  
+  .footer-col ul li{
+      padding: 10px 0;
+  }
+  .footer-col ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      opacity: 0.7;
+      transition: 0.5s;
+  }
+  .footer-col ul li a:hover{
+      opacity: 1;
+  }
+  .footer-col input{
+      border: none;
+      width: 250px;
+      height: 45px;
+      display: block;
+      padding-left: 20px;
+      margin: 14px 0;
+  }
+  
+  .footer-col .inputSubmit{
+      padding: 0px 20px;
+      background-color: #e91e64;
+      border: none;
+      color: white;
+  }
+  .col p{
+      color: white;
+  }
+  .row hr{
+      opacity: 0.7;
+  }
+  
+  .row .socialIcons i{
+      display: inline-block;
+      color: white;
+      font-size: 20px;
+      margin: 0 15px;
+      transition: 0.5s;
+  }
+  
+  .row .socialIcons i:hover{
+      color: #e91e64;
+  }
+  
+  @media (max-width: 600px){
+      footer .row{
+          flex-direction: column;
+          padding: 20px 30px;
+      }
+  
+      footer .footer-col ul{
+          margin-left: 20px;
+          margin-bottom: 20px;
+      }
+      .footer-col input{
+          width: 100%;
+      }
+  }
+  /* **********************end footer****************** */
